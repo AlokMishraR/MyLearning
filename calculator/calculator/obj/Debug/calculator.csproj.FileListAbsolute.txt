@@ -1,0 +1,17 @@
+C:\manish\calculator\calculator\bin\Debug\calculator.exe
+C:\manish\calculator\calculator\bin\Debug\calculator.pdb
+C:\manish\calculator\calculator\obj\Debug\ResolveAssemblyReference.cache
+C:\manish\calculator\calculator\obj\Debug\calculator.Form1.resources
+C:\manish\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\manish\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache
+C:\manish\calculator\calculator\obj\Debug\calculator.exe
+C:\manish\calculator\calculator\obj\Debug\calculator.pdb
+I:\calculator\calculator\obj\Debug\calculator.exe
+I:\calculator\calculator\obj\Debug\calculator.pdb
+I:\calculator\calculator\bin\Debug\calculator.exe
+I:\calculator\calculator\bin\Debug\calculator.pdb
+I:\calculator\calculator\obj\Debug\ResolveAssemblyReference.cache
+I:\calculator\calculator\obj\Debug\calculator.Form1.resources
+I:\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+I:\calculator\calculator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\calculator\calculator\obj\Debug\GenerateResource-ResGen.write.1.tlog
