@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/one"
+    
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="17dp"
+        android:text="Welcome Admin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/AppBaseTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+       
+        android:text="Add Flight"
+        android:textColor="#800000" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:text="Cancel Flight"
+        android:textColor="#800000" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Add Fares"
+        android:textColor="#800000"
+        android:textColorLink="#800000" />
+
+</RelativeLayout>

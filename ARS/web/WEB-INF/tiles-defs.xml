@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+<!--
+     This is a blank Tiles definition file with a commented example.
+-->
+
+<tiles-definitions>
+
+   
+    <definition name="main" path="/user.jsp">
+        <put name="Header" value="/Header.jsp" />
+        <put name="Menu"   value="Menu.jsp" />
+        <put name="Footer" value="Footer.jsp" />
+        <put name="Body"   value="Body.jsp" />
+    </definition>
+    <definition name="adminmain" path="/admin.jsp">
+        <put name="Body1"   value="adminbody.jsp" />
+    </definition>
+     <definition name="main1" extends="main">
+
+        <put name="Body"   value="/search.jsp" />
+    </definition>
+     <definition name="main2" extends="main">
+
+        <put name="Body"   value="/reservation.jsp" />
+    </definition>
+     <definition name="main3" extends="main">
+
+        <put name="Body"   value="/cancel.jsp" />
+    </definition>
+     <definition name="main4" extends="main">
+
+        <put name="Body"   value="/pnr.jsp" />
+    </definition>
+     <definition name="main5" extends="main">
+
+        <put name="Body"   value="/fare.jsp" />
+    </definition>
+     <definition name="main6" extends="main">
+
+        <put name="Body"   value="/fstatus.jsp" />
+    </definition>
+    <definition name="main7" extends="main">
+
+        <put name="Body"   value="/profile.jsp" />
+    </definition>
+     <definition name="main8" extends="adminmain">
+
+        <put name="Body1"   value="/addflight.jsp" />
+    </definition>
+    <definition name="main9" extends="adminmain">
+
+        <put name="Body1"   value="/deleteflight.jsp" />
+    </definition>
+   
+ <!-- sample tiles definitions
+    <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
+        <putList name="list" >
+            <add value=".menu.links" />
+            <add value=".menu.taglib.references" />
+            <add value=".menu.printer.friendly" />
+            <add value=".menu.old.documents" />
+      </putList>
+    </definition>
+
+    <definition name="aPage" extends=".mainLayout">
+        <put name="title"  value="Another Title" />
+        <put name="body"   value=".aPage.body" />
+    </definition>
+
+    end samples -->
+
+    <definition name="${YOUR_DEFINITION_HERE}">
+    </definition>
+
+</tiles-definitions>
